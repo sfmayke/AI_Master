@@ -1,0 +1,43 @@
+{
+  // --- UI Minimalism ---
+  "workbench.activityBar.location": "default",
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "breadcrumbs.enabled": false,
+  "workbench.editor.tabSizing": "shrink",
+  "powermode.enabled": true,
+  // --- Typography ---
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+  "notebook.editorOptions": {
+    "fontFamily": "Fira Code",
+    "fontLigatures": true
+  },
+  // --- Notebook Cleanliness ---
+  "notebook.lineNumbers": "off",
+  "notebook.output.scrolling": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right"
+  },
+  // --- Focus ---
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  // --- Python / Jupyter ---
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  // --- Copilot AI ----
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.inlineSuggest.enable": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black"
+}
